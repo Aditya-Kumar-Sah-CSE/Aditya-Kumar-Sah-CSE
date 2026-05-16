@@ -1,30 +1,205 @@
+<div align="center">
 
-<h1 align="center">Hi 👋, I'm Aditya Kumar Sah</h1>
-<h3 align="center">A passionate Software Engineering from India</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00bfff&height=220&section=header&text=Aditya%20Kumar%20Sah&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20|%20MERN%20Developer%20|%20Competitive%20Programmer&descAlignY=55" width="100%" />
 
-<img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aditya-kumar-sah-cse&label=Profile%20views&color=0e75b6&style=flat" alt="aditya-kumar-sah-cse" /> </p>
+# Hi 👋, I'm Aditya Kumar Sah
 
-- 📫 How to reach me **adityakumarsah8709@gmail.com**
+### 🚀 Software Engineer | MERN Stack Developer | Flutter Developer
 
-- ⚡ Fun fact **I am Chill bro😂**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&color=00BFFF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Competitive+Programmer;Flutter+Developer;Open+Source+Contributor;Always+Learning+New+Things" />
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/aditya kumar sah" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aditya kumar sah" height="30" width="40" /></a>
-<a href="https://instagram.com/killer_adi_28" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="killer_adi_28" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/killer_adi_28" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="killer_adi_28" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/adityakumarsah" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="adityakumarsah" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/aditya_kumar_sah-28" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aditya_kumar_sah-28" height="30" width="40" /></a>
+</div>
+
+---
+
+<img align="right" alt="coding" width="350" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
+
+## 🧑‍💻 About Me
+
+- 🎓 B.Tech CSE Student from India  
+- 💼 Currently working as a **Flutter Developer Intern @ Aleefaraba Pvt. Ltd.**
+- 🌱 Learning **Advanced MERN Stack & DSA**
+- 💻 Solved **800+ coding problems** across platforms
+- ⭐ CodeChef **2⭐ Programmer**
+- 🚀 Passionate about Open Source & Building Real World Projects
+- ⚡ Fun Fact: **I am Chill Bro 😂**
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+<a href="https://linkedin.com/in/aditya-kumar-sah">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:adityakumarsah8709@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://instagram.com/killer_adi_28">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="https://codeforces.com/profile/adityakumarsah">
+<img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
+</a>
+
+<a href="https://www.codechef.com/users/killer_adi_28">
+<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+</a>
+
+<a href="https://leetcode.com/u/aditya_kumar_sah-28/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aditya-kumar-sah-cse&show_icons=true&locale=en&layout=compact" alt="aditya-kumar-sah-cse" /></p>
+# ⚒️ Tech Stack
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aditya-kumar-sah-cse&show_icons=true&locale=en" alt="aditya-kumar-sah-cse" /></p>
+## 👨‍💻 Languages
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aditya-kumar-sah-cse&" alt="aditya-kumar-sah-cse" /></p>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,dart" />
+</p>
 
+## 🎨 Frontend
 
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,react,nextjs" />
+</p>
+
+## ⚙️ Backend
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express,firebase" />
+</p>
+
+## 🛢️ Database
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
+</p>
+
+## 📱 Mobile Development
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=flutter,dart" />
+</p>
+
+## 🛠️ Tools & Platforms
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux" />
+</p>
+
+---
+
+# 📊 GitHub Stats
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aditya-kumar-sah-cse&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=aditya-kumar-sah-cse&theme=tokyonight&hide_border=true" />
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-kumar-sah-cse&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=aditya-kumar-sah-cse&theme=tokyonight&no-frame=true&row=1&column=7" />
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aditya-kumar-sah-cse&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+# 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔹 MERN Blog App
+- Full Stack Blogging Platform
+- JWT Authentication
+- CRUD Operations
+
+</td>
+
+<td width="50%">
+
+### 🔹 Flutter Chat App
+- Real Time Messaging
+- Firebase Integration
+- Beautiful UI
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🔹 AI Resume Analyzer
+- Resume Score Prediction
+- AI Suggestions
+- React + Node.js
+
+</td>
+
+<td width="50%">
+
+### 🔹 Portfolio Website
+- Responsive Design
+- Modern UI
+- React + Tailwind
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 👀 Profile Views
+
+![](https://komarev.com/ghpvc/?username=aditya-kumar-sah-cse&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge)
+
+---
+
+### 💬 Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00bfff,100:0d1117&height=120&section=footer"/>
+
+</div>
