@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00bfff&height=220&section=header&text=Aditya%20Kumar%20Sah&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20|%20MERN%20Developer%20|%20Competitive%20Programmer&descAlignY=55" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00bfff&height=220&section=header&text=Aditya%20Kumar%20Sah&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20MERN%20Stack%20%7C%20Flutter%20Developer" alt="header">
 
 # Hi 👋, I'm Aditya Kumar Sah
 
 ### 🚀 Software Engineer | MERN Stack Developer | Flutter Developer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&color=00BFFF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Competitive+Programmer;Flutter+Developer;Open+Source+Contributor;Always+Learning+New+Things" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&color=00BFFF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Competitive+Programmer;Flutter+Developer" alt="typing animation">
 
 </div>
 
