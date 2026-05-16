@@ -67,7 +67,8 @@
 ## 🎨 Frontend
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,react,nextjs" />
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,react" />
+  
 </p>
 
 ## ⚙️ Backend
@@ -79,7 +80,7 @@
 ## 🛢️ Database
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
+<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
 </p>
 
 ## 📱 Mobile Development
