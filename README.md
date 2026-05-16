@@ -29,7 +29,7 @@
 ## 🌐 Connect With Me
 
 <p align="center">
-<a href="https://linkedin.com/in/aditya-kumar-sah">
+<a href="https://linkedin.com/in/aditya-kumar-sah-cse">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
