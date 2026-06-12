@@ -51,8 +51,8 @@
     <td align="center" width="50%">
       <b>📡 LIVE VERCEL METRICS</b><br/><br/>
       <a href="https://beu-predictor.vercel.app"><img src="https://api.visitorbadge.io/api/visitors?path=beu-predictor.vercel.app&label=LIVE%20VISITORS&labelColor=%230a0a20&countColor=%2300f5ff&style=for-the-badge" alt="BEU Visitors"/></a><br/><br/>
-      <img src="https://img.shields.io/badge/VERCEL_STATUS-ONLINE-00ff88?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a20" alt="Status"/><br/><br/>
-      <img src="https://img.shields.io/badge/PAGE_VIEWS-OVER_500%2B_IN_2_DAYS-ff6b35?style=for-the-badge&labelColor=0a0a20" alt="Views"/>
+      <a href="https://vercel.com/aditya-kumar-sahs-projects-9a4c92bd/beu-predictor-eg5b/analytics"><img src="https://img.shields.io/badge/VERCEL_STATUS-ONLINE-00ff88?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a20" alt="Status"/></a><br/><br/>
+      <a href="https://vercel.com/aditya-kumar-sahs-projects-9a4c92bd/beu-predictor-eg5b/analytics"><img src="https://img.shields.io/badge/PAGE_VIEWS-OVER_500%2B_IN_2_DAYS-ff6b35?style=for-the-badge&labelColor=0a0a20" alt="Views"/></a>
     </td>
     <td align="center" width="50%">
       <b>🧠 SYSTEM CAPABILITIES</b><br/><br/>
