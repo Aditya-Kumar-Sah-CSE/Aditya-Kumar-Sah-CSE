@@ -166,7 +166,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=aditya-kumar-sah-cse&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=00f5ff&bg_color=050510&title_color=00f5ff&icon_color=7c3aed&text_color=c9d1d9&border_radius=10&hide_border=false" height="180" alt="GitHub Stats" />
 &nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.demolab.com/?user=aditya-kumar-sah-cse&theme=tokyonight-duo&background=050510&border=00f5ff&ring=00f5ff&fire=ff6b35&currStreakLabel=00f5ff&sideLabels=7c3aed&dates=8b949e&border_radius=10" height="180" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aditya-kumar-sah-cse&theme=tokyonight-duo&background=050510&border=00f5ff&ring=00f5ff&fire=ff6b35&currStreakLabel=00f5ff&sideLabels=7c3aed&dates=8b949e&border_radius=10" height="180" alt="GitHub Streak" />
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-kumar-sah-cse&layout=compact&theme=tokyonight&border_color=00f5ff&bg_color=050510&title_color=00f5ff&text_color=c9d1d9&border_radius=10&hide_border=false" height="180" alt="Top Languages" />
 
