@@ -1,0 +1,363 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
+  <defs>
+
+    <!-- ═══ BACKGROUNDS ═══ -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#000008"/>
+      <stop offset="45%"  stop-color="#01001a"/>
+      <stop offset="100%" stop-color="#080022"/>
+    </linearGradient>
+
+    <radialGradient id="nebula-bh" cx="84%" cy="50%" r="28%">
+      <stop offset="0%"   stop-color="#5a0099" stop-opacity="0.35"/>
+      <stop offset="50%"  stop-color="#2a0055" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebula-sun" cx="27%" cy="50%" r="22%">
+      <stop offset="0%"   stop-color="#331100" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ═══ SUN ═══ -->
+    <radialGradient id="sunCore" cx="38%" cy="38%" r="62%">
+      <stop offset="0%"   stop-color="#ffffc8"/>
+      <stop offset="25%"  stop-color="#ffdd00"/>
+      <stop offset="65%"  stop-color="#ff7700"/>
+      <stop offset="100%" stop-color="#cc2200"/>
+    </radialGradient>
+
+    <radialGradient id="sunHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ff8800" stop-opacity="0.5"/>
+      <stop offset="70%"  stop-color="#ff4400" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ═══ PLANETS ═══ -->
+    <radialGradient id="cpGrad" cx="33%" cy="33%" r="67%">
+      <stop offset="0%"   stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#cc2200"/>
+    </radialGradient>
+
+    <radialGradient id="flutterGrad" cx="33%" cy="33%" r="67%">
+      <stop offset="0%"   stop-color="#a0eeff"/>
+      <stop offset="100%" stop-color="#005fa3"/>
+    </radialGradient>
+
+    <radialGradient id="mernGrad" cx="33%" cy="33%" r="67%">
+      <stop offset="0%"   stop-color="#aaffcc"/>
+      <stop offset="100%" stop-color="#006622"/>
+    </radialGradient>
+
+    <radialGradient id="nextGrad" cx="33%" cy="33%" r="67%">
+      <stop offset="0%"   stop-color="#e8e8e8"/>
+      <stop offset="100%" stop-color="#303030"/>
+    </radialGradient>
+
+    <!-- ═══ BLACK HOLE ═══ -->
+    <radialGradient id="bhCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#000000"/>
+      <stop offset="60%"  stop-color="#0a0022"/>
+      <stop offset="100%" stop-color="#220044" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <radialGradient id="bhGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8800ff" stop-opacity="0.55"/>
+      <stop offset="50%"  stop-color="#4400aa" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ═══ FILTERS ═══ -->
+    <filter id="fGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="fSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="fBH" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="fText" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- ═══ ORBIT PATHS (for animateMotion) ═══ -->
+    <!-- All orbits centered at sun (240, 190) -->
+    <!-- Format: M cx+rx,cy  A rx,ry 0 1,0 cx-rx,cy  A rx,ry 0 1,0 cx+rx,cy -->
+    <path id="p1" d="M 292,190 A 52,19 0 1,0 188,190 A 52,19 0 1,0 292,190"/>
+    <path id="p2" d="M 328,190 A 88,31 0 1,0 152,190 A 88,31 0 1,0 328,190"/>
+    <path id="p3" d="M 365,190 A 125,44 0 1,0 115,190 A 125,44 0 1,0 365,190"/>
+    <path id="p4" d="M 408,190 A 168,59 0 1,0 72,190  A 168,59 0 1,0 408,190"/>
+
+    <!-- ═══ ANIMATIONS ═══ -->
+    <style>
+      .star  { animation: tw 2s    ease-in-out infinite alternate; fill: #ffffff; }
+      .star2 { animation: tw 3.4s  ease-in-out infinite alternate; fill: #cceeff; animation-delay: -1.2s; }
+      .star3 { animation: tw 1.7s  ease-in-out infinite alternate; fill: #ffffff; animation-delay: -0.6s; }
+      .star4 { animation: tw 4.1s  ease-in-out infinite alternate; fill: #ffeebb; animation-delay: -2.1s; }
+      .star5 { animation: tw 2.8s  ease-in-out infinite alternate; fill: #ddeeff; animation-delay: -1.7s; }
+
+      @keyframes tw { from { opacity: 0.05; } to { opacity: 0.90; } }
+
+      @keyframes sunPulse {
+        0%, 100% { opacity: 0.28; r: 62; }
+        50%       { opacity: 0.52; r: 70; }
+      }
+      @keyframes sunCorePulse {
+        0%, 100% { r: 26; }
+        50%       { r: 29; }
+      }
+
+      .sun-halo { animation: sunPulse 2.8s ease-in-out infinite; }
+      .sun-core { animation: sunCorePulse 2.8s ease-in-out infinite; transform-origin: 240px 190px; }
+
+      @keyframes bhSpin1 { from { transform: rotate(0deg);    } to { transform: rotate(360deg);  } }
+      @keyframes bhSpin2 { from { transform: rotate(0deg);    } to { transform: rotate(-360deg); } }
+      @keyframes bhPulse { 0%,100% { opacity: 0.65; } 50% { opacity: 1; } }
+
+      .bh-ring1 { transform-origin: 758px 190px; animation: bhSpin1 3.5s linear infinite; }
+      .bh-ring2 { transform-origin: 758px 190px; animation: bhSpin2 5.5s linear infinite; }
+      .bh-ring3 { transform-origin: 758px 190px; animation: bhSpin1 8s   linear infinite; }
+      .bh-aura  { animation: bhPulse 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--              RENDER LAYERS             -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Layer 0: Background -->
+  <rect width="900" height="380" fill="url(#bg)"/>
+  <rect width="900" height="380" fill="url(#nebula-bh)"/>
+  <rect width="900" height="380" fill="url(#nebula-sun)"/>
+
+  <!-- Layer 1: Stars -->
+  <!-- Upper strip -->
+  <circle class="star"  cx="14"  cy="18"  r="1.4"/>
+  <circle class="star2" cx="68"  cy="10"  r="1.0"/>
+  <circle class="star3" cx="132" cy="22"  r="1.8"/>
+  <circle class="star4" cx="198" cy="8"   r="1.0"/>
+  <circle class="star5" cx="266" cy="16"  r="1.4"/>
+  <circle class="star"  cx="344" cy="24"  r="1.0"/>
+  <circle class="star2" cx="416" cy="11"  r="1.6"/>
+  <circle class="star3" cx="472" cy="19"  r="1.0"/>
+  <circle class="star4" cx="532" cy="7"   r="1.8"/>
+  <circle class="star5" cx="596" cy="21"  r="1.0"/>
+  <circle class="star"  cx="658" cy="13"  r="1.4"/>
+  <circle class="star2" cx="714" cy="25"  r="1.0"/>
+  <circle class="star3" cx="776" cy="9"   r="1.8"/>
+  <circle class="star4" cx="832" cy="20"  r="1.0"/>
+  <circle class="star5" cx="882" cy="14"  r="1.4"/>
+  <circle class="star"  cx="28"  cy="55"  r="1.0"/>
+  <circle class="star2" cx="98"  cy="42"  r="1.6"/>
+  <circle class="star3" cx="162" cy="60"  r="1.0"/>
+  <circle class="star4" cx="232" cy="50"  r="1.4"/>
+  <circle class="star5" cx="306" cy="38"  r="1.0"/>
+  <circle class="star"  cx="375" cy="56"  r="1.8"/>
+  <circle class="star2" cx="445" cy="44"  r="1.0"/>
+  <circle class="star3" cx="508" cy="62"  r="1.4"/>
+  <circle class="star4" cx="570" cy="46"  r="1.0"/>
+  <circle class="star5" cx="630" cy="58"  r="1.6"/>
+  <circle class="star"  cx="692" cy="40"  r="1.0"/>
+  <circle class="star2" cx="752" cy="54"  r="1.4"/>
+  <circle class="star3" cx="814" cy="42"  r="1.0"/>
+  <circle class="star4" cx="872" cy="60"  r="1.8"/>
+  <circle class="star5" cx="50"  cy="95"  r="1.0"/>
+  <circle class="star"  cx="118" cy="85"  r="1.4"/>
+  <circle class="star2" cx="188" cy="100" r="1.0"/>
+  <circle class="star3" cx="440" cy="92"  r="1.6"/>
+  <circle class="star4" cx="500" cy="80"  r="1.0"/>
+  <circle class="star5" cx="556" cy="96"  r="1.4"/>
+  <circle class="star"  cx="614" cy="84"  r="1.0"/>
+  <circle class="star2" cx="674" cy="98"  r="1.8"/>
+  <circle class="star3" cx="736" cy="82"  r="1.0"/>
+  <circle class="star4" cx="796" cy="100" r="1.4"/>
+  <circle class="star5" cx="858" cy="88"  r="1.0"/>
+  <circle class="star"  cx="10"  cy="130" r="1.6"/>
+  <circle class="star2" cx="72"  cy="118" r="1.0"/>
+  <circle class="star3" cx="460" cy="125" r="1.4"/>
+  <circle class="star4" cx="516" cy="112" r="1.0"/>
+  <!-- Lower strip -->
+  <circle class="star"  cx="20"  cy="268" r="1.4"/>
+  <circle class="star2" cx="84"  cy="282" r="1.0"/>
+  <circle class="star3" cx="148" cy="272" r="1.8"/>
+  <circle class="star4" cx="215" cy="290" r="1.0"/>
+  <circle class="star5" cx="285" cy="276" r="1.4"/>
+  <circle class="star"  cx="356" cy="288" r="1.0"/>
+  <circle class="star2" cx="430" cy="270" r="1.6"/>
+  <circle class="star3" cx="490" cy="284" r="1.0"/>
+  <circle class="star4" cx="548" cy="274" r="1.8"/>
+  <circle class="star5" cx="608" cy="292" r="1.0"/>
+  <circle class="star"  cx="666" cy="278" r="1.4"/>
+  <circle class="star2" cx="726" cy="288" r="1.0"/>
+  <circle class="star3" cx="786" cy="272" r="1.8"/>
+  <circle class="star4" cx="840" cy="286" r="1.0"/>
+  <circle class="star5" cx="888" cy="276" r="1.4"/>
+  <circle class="star"  cx="36"  cy="322" r="1.0"/>
+  <circle class="star2" cx="102" cy="336" r="1.6"/>
+  <circle class="star3" cx="172" cy="320" r="1.0"/>
+  <circle class="star4" cx="240" cy="340" r="1.4"/>
+  <circle class="star5" cx="314" cy="326" r="1.0"/>
+  <circle class="star"  cx="384" cy="338" r="1.8"/>
+  <circle class="star2" cx="454" cy="322" r="1.0"/>
+  <circle class="star3" cx="514" cy="334" r="1.4"/>
+  <circle class="star4" cx="574" cy="320" r="1.0"/>
+  <circle class="star5" cx="634" cy="342" r="1.6"/>
+  <circle class="star"  cx="696" cy="328" r="1.0"/>
+  <circle class="star2" cx="756" cy="338" r="1.4"/>
+  <circle class="star3" cx="818" cy="324" r="1.0"/>
+  <circle class="star4" cx="872" cy="336" r="1.8"/>
+  <circle class="star"  cx="52"  cy="362" r="1.0"/>
+  <circle class="star2" cx="124" cy="370" r="1.4"/>
+  <circle class="star3" cx="210" cy="358" r="1.0"/>
+  <circle class="star4" cx="298" cy="372" r="1.8"/>
+  <circle class="star5" cx="400" cy="360" r="1.0"/>
+  <circle class="star"  cx="468" cy="374" r="1.4"/>
+  <circle class="star2" cx="536" cy="362" r="1.0"/>
+  <circle class="star3" cx="600" cy="370" r="1.6"/>
+  <circle class="star4" cx="662" cy="358" r="1.0"/>
+  <circle class="star5" cx="722" cy="372" r="1.4"/>
+  <circle class="star"  cx="782" cy="360" r="1.0"/>
+  <circle class="star2" cx="844" cy="374" r="1.8"/>
+  <circle class="star3" cx="894" cy="362" r="1.0"/>
+
+  <!-- Layer 2: Title -->
+  <text x="450" y="22" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="12" font-weight="bold" letter-spacing="4"
+        fill="#00f5ff" filter="url(#fText)" opacity="0.92">
+    ✦ A D I T Y A V E R S E   ·   S O L A R   S Y S T E M   ✦
+  </text>
+
+  <!-- Layer 3: Orbit ellipses (dashed guides) -->
+  <ellipse cx="240" cy="190" rx="52"  ry="19" fill="none" stroke="#ff6b35" stroke-width="0.5" stroke-opacity="0.30" stroke-dasharray="3,5"/>
+  <ellipse cx="240" cy="190" rx="88"  ry="31" fill="none" stroke="#54c5f8" stroke-width="0.5" stroke-opacity="0.28" stroke-dasharray="4,6"/>
+  <ellipse cx="240" cy="190" rx="125" ry="44" fill="none" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.24" stroke-dasharray="5,7"/>
+  <ellipse cx="240" cy="190" rx="168" ry="59" fill="none" stroke="#cccccc" stroke-width="0.5" stroke-opacity="0.18" stroke-dasharray="6,8"/>
+
+  <!-- Layer 4: Sun -->
+  <!-- Outer halo (pulsing) -->
+  <circle class="sun-halo" cx="240" cy="190" r="62" fill="url(#sunHalo)"/>
+  <!-- Core -->
+  <circle class="sun-core" cx="240" cy="190" r="26" fill="url(#sunCore)" filter="url(#fGlow)"/>
+  <!-- Hot spot -->
+  <circle cx="232" cy="183" r="7" fill="#ffffd0" opacity="0.55"/>
+  <!-- Labels -->
+  <text x="240" y="234" text-anchor="middle" font-family="'Courier New',monospace" font-size="9"  fill="#ffcc00" filter="url(#fText)">☀ FULL STACK SUN</text>
+  <text x="240" y="245" text-anchor="middle" font-family="'Courier New',monospace" font-size="7"  fill="#ff8800" opacity="0.8">ADITYA.DEV</text>
+
+  <!-- Layer 5: Planets (animateMotion with rotate="none" keeps labels upright) -->
+
+  <!-- ── Planet 1: ☄ Competitive Programming ── -->
+  <g>
+    <animateMotion dur="5s" begin="0s" repeatCount="indefinite" rotate="none">
+      <mpath href="#p1"/>
+    </animateMotion>
+    <circle r="9" fill="url(#cpGrad)" filter="url(#fSoft)"/>
+    <circle cx="-2.5" cy="-2.5" r="3" fill="#ffd090" opacity="0.5"/>
+    <text y="21" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" font-weight="bold" fill="#ff9a3c">☄ CP</text>
+  </g>
+
+  <!-- ── Planet 2: 🌙 Flutter ── -->
+  <g>
+    <animateMotion dur="9s" begin="-3.5s" repeatCount="indefinite" rotate="none">
+      <mpath href="#p2"/>
+    </animateMotion>
+    <circle r="11" fill="url(#flutterGrad)" filter="url(#fSoft)"/>
+    <circle cx="-3" cy="-3" r="3.5" fill="#d0f8ff" opacity="0.5"/>
+    <text y="25" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" font-weight="bold" fill="#54c5f8">🌙 FLUTTER</text>
+  </g>
+
+  <!-- ── Planet 3: 🪐 MERN ── -->
+  <g>
+    <animateMotion dur="14s" begin="-5s" repeatCount="indefinite" rotate="none">
+      <mpath href="#p3"/>
+    </animateMotion>
+    <circle r="13" fill="url(#mernGrad)" filter="url(#fSoft)"/>
+    <!-- Ring around MERN planet -->
+    <ellipse rx="20" ry="5" fill="none" stroke="#00ff88" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="-3.5" cy="-3.5" r="4" fill="#ccffdd" opacity="0.4"/>
+    <text y="29" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" font-weight="bold" fill="#00ff88">🪐 MERN</text>
+  </g>
+
+  <!-- ── Planet 4: 🌍 Next.js ── -->
+  <g>
+    <animateMotion dur="20s" begin="-8s" repeatCount="indefinite" rotate="none">
+      <mpath href="#p4"/>
+    </animateMotion>
+    <circle r="14" fill="url(#nextGrad)" filter="url(#fSoft)"/>
+    <circle cx="-4" cy="-4" r="5" fill="#ffffff" opacity="0.35"/>
+    <!-- Cloud swirl -->
+    <ellipse cx="4" cy="3" rx="5" ry="2" fill="#aaaaaa" opacity="0.3"/>
+    <text y="31" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" font-weight="bold" fill="#cccccc">🌍 NEXT.JS</text>
+  </g>
+
+  <!-- Layer 6: Black Hole -->
+  <!-- Outer glow -->
+  <circle class="bh-aura" cx="758" cy="190" r="88" fill="url(#bhGlow)" filter="url(#fBH)"/>
+
+  <!-- Accretion disk layer 3 (outer, slow) -->
+  <g class="bh-ring3">
+    <ellipse cx="758" cy="190" rx="75" ry="18" fill="none" stroke="#660099" stroke-width="3" stroke-opacity="0.35" stroke-dasharray="25,15"/>
+  </g>
+
+  <!-- Accretion disk layer 1 (mid, fast CW) -->
+  <g class="bh-ring1">
+    <ellipse cx="758" cy="190" rx="62" ry="16" fill="none" stroke="#9900ff" stroke-width="4.5" stroke-opacity="0.65" stroke-dasharray="18,10"/>
+  </g>
+
+  <!-- Accretion disk layer 2 (inner, CCW) -->
+  <g class="bh-ring2">
+    <ellipse cx="758" cy="190" rx="50" ry="13" fill="none" stroke="#00ccff" stroke-width="2.5" stroke-opacity="0.55" stroke-dasharray="14,10"/>
+  </g>
+
+  <!-- Innermost hot ring -->
+  <ellipse cx="758" cy="190" rx="40" ry="10" fill="none" stroke="#ff00cc" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- BH core (the dark singularity) -->
+  <circle cx="758" cy="190" r="34" fill="url(#bhCore)" filter="url(#fBH)"/>
+  <circle cx="758" cy="190" r="28" fill="#000000"/>
+
+  <!-- BH Labels -->
+  <text x="758" y="298" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#cc00ff" filter="url(#fText)">🕳 BEU PREDICTOR</text>
+  <text x="758" y="312" text-anchor="middle" font-family="'Courier New',monospace" font-size="8"  fill="#9900cc" opacity="0.85">BLACK HOLE</text>
+  <text x="758" y="324" text-anchor="middle" font-family="'Courier New',monospace" font-size="7"  fill="#7700aa" opacity="0.70">500+ VISITORS · 4000+ RECORDS</text>
+
+  <!-- Layer 7: Legend panel -->
+  <rect x="475" y="68" width="202" height="148" rx="7" ry="7"
+        fill="#010115" fill-opacity="0.88"
+        stroke="#00f5ff" stroke-width="0.6" stroke-opacity="0.45"/>
+  <text x="576" y="88" text-anchor="middle" font-family="'Courier New',monospace"
+        font-size="9" fill="#00f5ff" opacity="0.85" letter-spacing="2">ORBIT LEGEND</text>
+  <line x1="484" y1="93" x2="668" y2="93" stroke="#00f5ff" stroke-width="0.4" stroke-opacity="0.35"/>
+
+  <circle cx="494" cy="108" r="5.5" fill="url(#cpGrad)"/>
+  <text x="506" y="112" font-family="'Courier New',monospace" font-size="8" fill="#ff9a3c">☄ Competitive Prog.</text>
+
+  <circle cx="494" cy="128" r="7" fill="url(#flutterGrad)"/>
+  <text x="506" y="132" font-family="'Courier New',monospace" font-size="8" fill="#54c5f8">🌙 Flutter / Mobile</text>
+
+  <circle cx="494" cy="149" r="8.5" fill="url(#mernGrad)"/>
+  <text x="506" y="153" font-family="'Courier New',monospace" font-size="8" fill="#00ff88">🪐 MERN Stack</text>
+
+  <circle cx="494" cy="170" r="9.5" fill="url(#nextGrad)"/>
+  <text x="506" y="174" font-family="'Courier New',monospace" font-size="8" fill="#cccccc">🌍 Next.js / Full Stack</text>
+
+  <circle cx="494" cy="192" r="10" fill="url(#bhCore)" stroke="#9900ff" stroke-width="1.5"/>
+  <text x="506" y="196" font-family="'Courier New',monospace" font-size="8" fill="#cc00ff">🕳 BEU Black Hole</text>
+
+  <!-- Layer 8: Footer -->
+  <line x1="0" y1="368" x2="900" y2="368" stroke="#00f5ff" stroke-width="0.4" stroke-opacity="0.25"/>
+  <text x="450" y="378" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="7.5" fill="#00f5ff" opacity="0.45" letter-spacing="2.5">
+    ADITYA KUMAR SAH  ·  INDIA  ·  B.TECH CSE  ·  FULL STACK DEVELOPER
+  </text>
+</svg>
